@@ -21,6 +21,11 @@ body {
   font-family: Marker Felt, fantasy;
 }
 
+@media screen and (max-height: 1900px) and (max-width: 1080px) {
+  .text{
+      font-size: 1vh; /*Adjust font size for smaller screens*/
+  }
+}
 
 
 /*code i got from w3 school to disable the spinner on number fields.*/
