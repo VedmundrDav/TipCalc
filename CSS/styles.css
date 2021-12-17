@@ -1,11 +1,15 @@
-.lblNmbrField
-
-#tip{
-
+body {
+    background-color:khaki;
 }
-#bill{
-
+#header{
+    text-align: center;
 }
-#amount{
-
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+.lblNmbrField{
+    padding: 10px;
+}
+

@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <Title id = "title">Tip Calculator</Title>
-        <form id = "form">
-            <div id = "main">
-                <h1>Tip Calculator</h1>
-                    <div id = "bill" class = "lblNmbrField">
-                        <label id = "bill-amount" class = "label">Bill Amount: </label> <input id = "bill-nmbr" class = "number_field" type = "number">
-                    </div>
-                    <div id = "tip" class = "lblNmbrField">
-                        <label id = "tip-amount" class = "label">Tip Percent: </label> <input id = "tip-nmbr" class = "number_field" type = "number">
-                    </div>
-                    <div id = "total" class = "lblNmbrField">
-                        <label id = "total-amount" class = "label">Total Amount Due: </label> <input id = "ttl-nmbr" class = "number_field" type = "number">
-                    </div> 
-                    <div id = "btn-div"> 
-                        <button id = "calculate-btn" class = "btn">Calculate!</button>
-                    </div>
-            </div>
 
-        </form>
-    </head>
+<head>
+    <Title id="title">Tip Calculator</Title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<body>
+    <form id="form">
+        <h1 id = "header">Tip Calculator</h1>
+        <div id="main">
+            <div id="bill" class="lblNmbrField">
+                <div class="label"><label id="bill-lbl">Bill Amount: </label></div>
+                <div class="field"><input id="bill-nmbr" class = "text-field" type="text"></div>
+            </div>
+            <div id="tip" class="lblNmbrField">
+                <div class="label"><label id="tip-lbl">Tip Percent: </label></div>
+                <div class="field"><input id="tip-nmbr" class = "text-field" type="text"></div>
+            </div>
+            <div id="total" class="lblNmbrField">
+                <div class="label"><label id="total-lbl">Total Amount Due: </label></div>
+                <div class="field"></div><input id="ttl-nmbr" class = "text-field" type="text"></div> 
+            <div id="btn-div">
+                <button id="calculate-btn" class="btn">Calculate!</button>
+            </div>
+        </div>
+        </div>
+    </form>
+</body>
+
 </html>
