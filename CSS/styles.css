@@ -9,8 +9,16 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
+.btn-div{
+  padding: 10px;
+}
+
 .lblNmbrField{
     padding: 10px;
+}
+.txt-lbl{
+  font-family: Marker Felt, fantasy;
 }
 
 
