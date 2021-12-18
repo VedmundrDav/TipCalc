@@ -5,6 +5,10 @@ function calc() {
     var tipAmount = document.getElementById("tipAmount").value;
     var totalAmount = document.getElementById("ttlAmount").value;
 
+    if(tipAmount > 20){
+        confirm("Tip is large. Was the service that good?");
+    }
+
     totalAmount = parseInt(billAmount) + (parseInt(billAmount) * (parseInt(tipAmount) / parseInt(percentOffset)));
 
     var totalAmountField = document.getElementById("ttlAmount");
